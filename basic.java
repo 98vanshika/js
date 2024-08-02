@@ -1,6 +1,9 @@
 //OBJECT => PROPERTIES(ENTITIES)+METHOD
 //CLASS => blueprint for object and started with capital letter with "class" as a keyword
 //In Java, functions (also known as methods) are not classes. Functions in Java are defined within classes and are considered members of those classes.
+//It is called by its own name/independently.
+//Methods => A method is a block of code which only runs when it is called
+//It is called by its object’s name/referenced.
 //Constructor => these are the functions use to construct java's object
 // class name = constructor name
 // no return value and no return type in constructors 
@@ -23,7 +26,7 @@ class Pen // defined
   }
 
   public void printColor(){
-    System.out.println(this.color);    // this => keyword in java use to tell which function cals that particular object
+    System.out.println(this.color);    // this => keyword in java use to tell which function calls that particular object
   }
 }
 
